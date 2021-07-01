@@ -1,4 +1,14 @@
+.App {
+  margin: 30px auto;
+  max-width: 900px;
+}
+
 .App-header {
-  background-color: #17181b;
-  color: #d8d4cf;
+  background-color: #1a1c22;
+  border-radius: 5px;
+}
+
+.App h1 {
+  text-align: center;
+  line-height: 1.5;
 }
