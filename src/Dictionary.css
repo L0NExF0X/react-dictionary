@@ -1,1 +1,9 @@
+.Dictionary .search-bar,
+.Dictionary .search-button {
+  border-radius: 5px;
+}
 
+.Dictionary form {
+  display: flex;
+  justify-content: center;
+}
