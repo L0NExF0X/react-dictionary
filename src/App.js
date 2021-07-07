@@ -11,7 +11,7 @@ export default function App() {
         </header>
         <Dictionary />
       </div>
-      <footer className="App-footer mt-5">
+      <footer className="App-footer">
         <p>
           This app was coded by{" "}
           <a

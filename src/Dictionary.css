@@ -7,3 +7,11 @@
   display: flex;
   justify-content: center;
 }
+
+.Synonyms {
+  padding: 0;
+}
+
+.Synonyms li {
+  display: inline-flex;
+}
