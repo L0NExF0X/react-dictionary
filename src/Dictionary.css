@@ -9,6 +9,10 @@
   margin-bottom: 48px;
 }
 
+.Phonetics a {
+  margin-right: 20px;
+}
+
 .Synonyms {
   padding: 0;
 }

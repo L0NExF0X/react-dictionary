@@ -12,7 +12,6 @@ export default function Meaning(props) {
           <div className="mb-5" key={index}>
             <p>
               <strong>Definition:</strong> {definitions.definition}
-              <br />
               <Example example={definitions.example} />
               <Synonym synonyms={definitions.synonyms} />
             </p>

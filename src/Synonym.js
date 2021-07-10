@@ -4,15 +4,16 @@ import "./Dictionary.css";
 export default function Synonym(props) {
   if (props.synonyms) {
     return (
-      <ul className="Synonyms">
+      <span className="Synonyms">
+        <br />
         <br />
         <span>
           <strong>Synonym(s): </strong>
         </span>
         {props.synonyms.map((synonyms, index) => {
-          return <li key={index}>{synonyms}</li>;
+          return <span key={index}>{synonyms}</span>;
         })}
-      </ul>
+      </span>
     );
   } else {
     return null;
