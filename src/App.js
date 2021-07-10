@@ -9,7 +9,7 @@ export default function App() {
         <header className="App-header">
           <h1>Dictionary App</h1>
         </header>
-        <Dictionary defaultKeyword="bear" />
+        <Dictionary defaultKeyword="wolf" />
       </div>
       <footer className="App-footer mt-5 text-muted">
         <p>
