@@ -1,18 +1,18 @@
 import React from "react";
-import "./Dictionary.css";
+import "./Phonetics.css";
 
 export default function Phonetics(props) {
   return (
     <div className="Phonetics mt-3">
       <a
-        className="btn btn-outline-info bg-dark"
+        className="btn btn-outline-info"
         href={props.phonetics.audio}
         target="_blank"
         rel="noreferrer"
       >
         Listen
       </a>
-      {props.phonetics.text}
+      <span className="text-muted">{props.phonetics.text}</span>
     </div>
   );
 }

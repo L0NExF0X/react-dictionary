@@ -4,8 +4,8 @@
 }
 
 .App-header {
-  background-color: #1a1c22;
-  border-radius: 5px;
+  background-color: #252525;
+  border-radius: 4px;
 }
 
 .App h1 {
@@ -14,9 +14,8 @@
 }
 
 .App-footer {
-  background-color: #1a1c22;
-  border-radius: 5px;
   font-size: 14px;
+  margin: 0 10px 0;
   text-align: center;
 }
 

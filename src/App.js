@@ -9,9 +9,9 @@ export default function App() {
         <header className="App-header">
           <h1>Dictionary App</h1>
         </header>
-        <Dictionary />
+        <Dictionary defaultKeyword="bear" />
       </div>
-      <footer className="App-footer mt-5">
+      <footer className="App-footer mt-5 text-muted">
         <p>
           This app was coded by{" "}
           <a
